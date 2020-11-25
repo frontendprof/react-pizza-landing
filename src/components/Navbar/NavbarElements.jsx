@@ -6,7 +6,7 @@ import { FaPizzaSlice } from "react-icons/fa";
 
 
 export const Nav = styled.nav`
-    background:salmon;
+    background:transparent;
     height:80px;
     display:flex;
     justify-content:center;
