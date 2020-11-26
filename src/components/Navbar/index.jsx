@@ -11,10 +11,11 @@ import {
 
 
 function Navbar({ toggle }) {
+
     return (
         <>
             <Nav>
-                <NavLink to="/">PizzBurg</NavLink>
+                <NavLink to="/">PizzBurgCafé</NavLink>
                 <NavIcon onClick={toggle}>
                     <p>Menu</p>
                     <Bars />

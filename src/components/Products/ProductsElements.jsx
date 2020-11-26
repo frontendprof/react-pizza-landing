@@ -51,6 +51,7 @@ export const ProductInfo = styled.div`
 
 export const ProductDesc = styled.p`
     margin-bottom:1rem;
+    font-family: 'Big Shoulders Inline Text', cursive;
 `
 
 export const ProductPrice = styled.p`
