@@ -1,16 +1,21 @@
 
 import React from 'react';
-import { Nav, NavLink, NavIcon, Bars } from "./NavbarElements";
+import {
+    Nav,
+    NavLink,
+    NavIcon,
+    Bars
+} from "./NavbarElements";
 
 
 
 
-function Navbar() {
+function Navbar({ toggle }) {
     return (
         <>
             <Nav>
                 <NavLink to="/">PizzBurg</NavLink>
-                <NavIcon>
+                <NavIcon onClick={toggle}>
                     <p>Menu</p>
                     <Bars />
                 </NavIcon>

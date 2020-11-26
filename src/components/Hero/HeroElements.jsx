@@ -16,7 +16,7 @@ export const HeroContainer = styled.div`
 export const HeroContent = styled.div`
     height:calc(100vh - 80px);
     width:min(100vw,100%);
-    padding:0 calc((100vw - 1300) / 2));
+    padding:0 calc((100vw - 1300) /2));
 `;
 
 export const HeroItems = styled.div`
