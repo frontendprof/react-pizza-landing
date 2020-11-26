@@ -39,15 +39,19 @@ export const NavIcon = styled.div`
     right:0;
     cursor:pointer;
     color:#fff;
+    
+    
 
     p{
         transform:translate(-175%,100%);
         font-weight:bold;
+        font-size:1.5rem;
+        
     }
 `;
 
 
 export const Bars = styled(FaPizzaSlice)`
-    font-size:2rem;
+    font-size:3rem;
     transform:translate(-50%,-15%);
 `

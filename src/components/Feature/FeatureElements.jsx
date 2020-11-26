@@ -1,11 +1,11 @@
 
 import styled from "styled-components";
 
-import FeaturePic from "../../images/deluxe.jpeg";
+import FeaturePic from "../../images/14.jpg";
 
 
 export const FeatureContainer = styled.div`
-    background:linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.1)),url(${FeaturePic});
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.2)),url(${FeaturePic});
     height:min(100vh,500px);
     background-position:center;
     background-size:cover;
@@ -23,7 +23,9 @@ export const FeatureContainer = styled.div`
 
     p{
         margin-bottom:1rem;
-        font-size:clamp(1rem,3vw,2rem)
+        font-size:clamp(1rem,3vw,2rem);
+        font-family: 'Unica One', cursive;
+        color:#ffd131;
     }
 `
 

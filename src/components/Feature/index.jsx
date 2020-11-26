@@ -8,10 +8,11 @@ import {
 
 
 function Feature() {
+    const style = { "fontSize": "2rem", "backgroundColor": "#251351", "padding": ".8rem", "bordeRadius": "50%" }
     return (
         <FeatureContainer>
             <h1>Pizza of the day</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus officia ducimus, consequatur quas unde autem!</p>
+            <p>Combination of mushrooms and pepperoni and some olives surely makes your day <span style={style}>😄</span></p>
             <FeatureButton>Suporish bidihed aknun</FeatureButton>
         </FeatureContainer>
     )

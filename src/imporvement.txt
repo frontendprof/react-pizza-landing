@@ -1,0 +1,5 @@
+
+
+*   Like pizza of the day page, we can create chef's recommendation dessert
+
+*   Include drinks too
